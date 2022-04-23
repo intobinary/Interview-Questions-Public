@@ -1,7 +1,7 @@
 /*===
-Into Binary (https://interview-questions.intobinary.org)
+Into Binary (https://practice-interview-questions.intobinary.org)
 &copy Coryright 2022 Into Binary. All rights reserved.
-Written for -- www.interview-questions.intobinary.org
+Written for -- www.practice-interview-questions.intobinary.org
 ===*/
 
 /*=== LIBRARIES ===*/
