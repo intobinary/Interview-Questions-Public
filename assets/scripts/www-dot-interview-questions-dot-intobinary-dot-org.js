@@ -15,13 +15,13 @@ null==d?void 0:d))},attrHooks:{type:{set:function(a,b){if(!o.radioValue&&"radio"
 /*== [INTERVIEW QUESTIONS QUESTIONS -- Into Binary] ==*/
 var theInterviewQuestions = [
 	{ title: "What project are you most proud of completing at this company?" },
-	{ title: "How many people are on the IT team?" },
-	{ title: "What are some of the big challenges facing your IT team?" },
+	{ title: "How many people are on the I.T. team?" },
+	{ title: "What are some of the big challenges facing your I.T. team?" },
 	{ title: "What is the biggest project you're working on currently?" },
 	{ title: "Which do you prefer: service-oriented or batch-oriented solutions?" },
 	{ title: "When was the last time you downloaded a utility from the internet to make your work more productive, and what was it?" },
 	{ title: "When is it appropriate to denormalize database design?" },
-	{ title: "What is the role of the DMZ in network architecture? How do you enfore relational integrity in database design?" },
+	{ title: "What is the role of the DMZ in network architecture? How do you enforce relational integrity in database design?" },
 	{ title: "What is the role of SMNP?" },
 	{ title: "What is the role of continuous intergration systems in the automated-build process?" },
 	{ title: "What is the difference between OLAP and OLTP? When is each used?" },
@@ -30,7 +30,7 @@ var theInterviewQuestions = [
 	{ title: "What is ETL and when should it be used?" },
 	{ title: "What is clustering? Describe its use." },
 	{ title: "What is SAN, and how is it used?" },
-	{ title: "What are cross-site scripting attack, and how do you defend agains it?" },
+	{ title: "What are cross-site scripting attack, and how do you defend against it?" },
 	{ title: "What have you done to ensure consistency across unity, quality, and production environments?" },
 	{ title: "What elements are necessary for a successful team, and why?" },
 	{ title: "What do you expect in the solution documents you are provided?" },
@@ -49,7 +49,7 @@ var theInterviewQuestions = [
 	{ title: "Have you used Visual Studio?" },
 	{ title: "Have you used Eclipse?" },
 	{ title: "Describe the elements of an N-tier architecture and their appropriate use." },
-	{ title: "Define 'authentication,' and 'authorization,' and the tolls that are used to support them in enterprise deployments." },
+	{ title: "Define 'authentication,' and 'authorization,' and the tools that are used to support them in enterprise deployments." },
 	{ title: "Compare and contrast REST and SOAP web services." },
 	{ title: "What companies do you see as the biggest competitors to this company?" },
 	{ title: "What challenges do you think you might expect in this job if you were hired?" },
@@ -61,45 +61,29 @@ var theInterviewQuestions = [
 	{ title: "Describe your production deployment process." },
 	{ title: "Do you prefer to manage people or ideas?" },
 	{ title: "Describe the skills you have that qualify you for this job." },
-	{ title: "You have learned that a business unit is managing a manjor component of the business using Excel spreadsheets and Access databases. What risks does this present, and what would you recomment be done to mitigate these risks?" },
-	{ title: "You have submitted a piece of code that has broken the client's website in production. You have found this bug while you were testing, and nobody else knows about it. What is your next move?" },
+	{ title: "You have learned that a business unit is managing a major component of the business using Excel spreadsheets and Access databases. What risks does this present, and what would you recommend be done to mitigate these risks?" },
+	{ title: "You have submitted a piece of code that has broken the client's website in production. You found this bug while you were testing, and nobody else knows about it. What is your next move?" },
 	{ title: "You have been asked to research a new business tool. You have come across two solutions. One is an on-premise solution; the other is cloud-based. Assuming they are functionally equivalent, why would you recommend one over the other?" },
 	{ title: "You are working at a client site, and the CTO of the client company has asked if she can see you. The CTO wants to know how much it would cost to bring in five more people on your team. She gives you very vague requirements of the job she is looking for you to do. What would you do?" },
 	{ title: "What is the biggest IT challenge you have faced, and how did you handle it?" },
 	{ title: "Give an example of where you have applied your technical knowledge in a practical way." },
 	{ title: "Tell me about the project you are most proud of and what your contribution was." },
-	{ title: "Tell me about the most recent project you worked on. What were your responsibilities." },
-	{ title: "How do you troubleshoot IT issues?" },
+	{ title: "Tell me about the most recent project you worked on. What were your responsibilities?" },
+	{ title: "How do you troubleshoot I.T. issues?" },
 	{ title: "How do you keep current in this industry?" },
 	{ title: "Describe your work pace." },
 	{ title: "How do you handle multiple deadlines?" },
 	{ title: "Given this problem (problem is based upon job requirements), what solution would you provide? Explain your thought process." },
-  { title: "Describe the most innovative change that you have initiated and what you did to implement this change." },
-  {
-    title: "Describe a time when you were able to improve upon the design that was originally suggested."
-  },
-  {
-    title: "What technical websites do you follow?"
-  },
-  {
-    title: "What source control tools have you used?"
-  },
-  {
-    title: "What languages have you programmed in?"
-  },
-  {
-    title: "What development tools have you used?"
-  },
-  {
-    title: "What automated-build tools or processes have you used?"
-  },
-  {
-    title: "What do you do to maintain your technical certifications?"
-  },
-  {
-    title: "What certifications do you hold?"
-  },
-  { title: "What interests you about this position?" }
+	{ title: "Describe the most innovative change that you have initiated and what you did to implement this change." },
+	{ title: "Describe a time when you were able to improve upon the design that was originally suggested." },
+	{ title: "What technical websites do you follow?" },
+	{ title: "What source control tools have you used?" },
+	{ title: "What languages have you programmed in?" },
+	{ title: "What development tools have you used?" },
+	{ title: "What automated-build tools or processes have you used?" },
+	{ title: "What do you do to maintain your technical certifications?" },
+	{ title: "What certifications do you hold?" },
+	{ title: "What interests you about this position?" }
 ]
 
 /*== [INTERVIEW QUESTIONS -- Into Binary] ==*/
@@ -274,7 +258,8 @@ intobinary(document).ready(function() {
 		
 		if (qNoIndex < qNoTotal) {
 			qNoIndex += 1;
-			currentQuestion = quiz.pop();
+//			currentQuestion = quiz.pop();
+			currentQuestion = quiz[Math.floor(Math.random() * quiz.length)];
 			
 			questionIndexTag.innerHTML = "Question " + qNoIndex;
 			
