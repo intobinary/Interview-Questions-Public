@@ -47,7 +47,7 @@ Written for -- www.practice-interview-questions.intobinary.org
 	/*** END COMMONS ***/
 		
 	/*** COMPONENTS ***/
-		body, html{}.m-app-content,.menu-footer,.content,.m-app-bar{width:100%;padding:1em;}.menu,.quiz{position:fixed;top:0;left:0;}.menu-content{padding:2em;overflow-y:auto;}.menu-content-p{padding:0 0 2em 0;}.menu-content-button{width:auto;}.menu-footer-links-a{display:inline-block;margin:1em;}.menu-footer-version{display:block;}.quiz-content-index,.quiz-content-question{//display:block;}.content-button,.quiz-content-index{padding:1em;}.quiz-content-question{padding:2em;margin:0 2em;border-radius:.5em;}.warning{position:fixed;top:0;left:0;width:100%;height:100%;padding:2em;}
+		body, html{}.m-app-content,.menu-footer,.content,.m-app-bar{width:100%;padding:1em;}.menu,.quiz{position:fixed;top:0;left:0;}.menu-content{padding:2em;overflow-y:auto;}.menu-content-p{padding:0 0 2em 0;}.menu-content-button{width:auto;}.menu-footer-links-a{display:inline-block;margin:1em;}.menu-footer-version{display:block;}.quiz-content{min-height:0;}.quiz-content-index,.quiz-content-question{//display:block;}.content-button,.quiz-content-index{padding:1em;}.quiz-content-question{padding:2em;margin:0 2em;border-radius:.5em;max-height:75%;overflow-y:auto;}.warning{position:fixed;top:0;left:0;width:100%;height:100%;padding:2em;}
 	/*** END COMPONENTS ***/
 		
 	/*** INTERACTIVITY ***/
