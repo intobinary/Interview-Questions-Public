@@ -65,7 +65,7 @@ var theInterviewQuestions = [
 	{ title: "You have submitted a piece of code that has broken the client's website in production. You found this bug while you were testing, and nobody else knows about it. What is your next move?" },
 	{ title: "You have been asked to research a new business tool. You have come across two solutions. One is an on-premise solution; the other is cloud-based. Assuming they are functionally equivalent, why would you recommend one over the other?" },
 	{ title: "You are working at a client site, and the CTO of the client company has asked if she can see you. The CTO wants to know how much it would cost to bring in five more people on your team. She gives you very vague requirements of the job she is looking for you to do. What would you do?" },
-	{ title: "What is the biggest IT challenge you have faced, and how did you handle it?" },
+	{ title: "What is the biggest I.T. challenge you have faced, and how did you handle it?" },
 	{ title: "Give an example of where you have applied your technical knowledge in a practical way." },
 	{ title: "Tell me about the project you are most proud of and what your contribution was." },
 	{ title: "Tell me about the most recent project you worked on. What were your responsibilities?" },
